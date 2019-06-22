@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".HomeFragment">
+
+    <com.uncopt.android.widget.text.justify.JustifiedTextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:text="İSMEK"
+        android:textColor="#2979FF"
+        android:textSize="24sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:layout_margin="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İstanbul Büyükşehir Belediyesi Hayat Boyu Öğrenme Merkezi  İSMEK İstanbulluların;  kişisel birikimlerini yükseltmek, mesleki ve sanatsal bilgilerini geliştirmek, kent kültürü ve metropolde yaşama konusunda donanımlarını artırmak, gelir elde etmelerine katkıda bulunmak, istihdam edilebilirliklerini artırmak, vb. amaçlarla kurulmuş, örgün eğitimi tamamlayıcı bir yaygın eğitim organizasyonudur."
+                android:textColor="@color/design_default_color_primary_dark"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
